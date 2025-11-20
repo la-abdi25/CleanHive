@@ -1,0 +1,11 @@
+/* registration/login navbar styling */
+.NavBarForms {
+  padding: 0;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.NavBarForms-Logo {
+  width: 100px;
+}

@@ -1,0 +1,114 @@
+/* nectar dashboard styling */
+.Nectar-View {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+.NectarDashBoard {
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: goldenrod;
+  width: 100%;
+}
+.NectarDashBoard h3 {
+  color: navy;
+  text-align: center;
+}
+.NectarDashBoard i {
+  color: white;
+}
+.NectarProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  padding: 30px;
+  color: white;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  width: 60vw;
+}
+.NectarInfo {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.NectarProfile b {
+  color: goldenrod;
+}
+.NectarProfile img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 20px 1px black;
+  filter: blur(10px);
+  opacity: 0;
+  transition: filter 0.5s ease-in, opacity 0.5s ease-in;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.NectarProfile img.loaded {
+  filter: blur(0px);
+  opacity: 1;
+}
+.Nectar-TopReviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  color: white;
+}
+.Nectar-TopReviews h3 {
+  color: rgb(97, 43, 97);
+}
+.No-TopReviews {
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+/* medium screen sizes, tablet size */
+@media (max-width: 1024px) {
+  .NectarProfile {
+    flex-direction: column;
+    height: fit-content;
+    gap: 1rem;
+  }
+  .NectarProfile img {
+    width: 250px;
+    height: 250px;
+  }
+  .NectarInfo {
+    text-align: center;
+  }
+}
+/* small screen sizes, phone size */
+@media (max-width: 600px) {
+  .NectarProfile {
+    flex-direction: column;
+    height: fit-content;
+    gap: 1rem;
+  }
+  .NectarProfile img {
+    width: 200px;
+    height: 200px;
+  }
+  .NectarInfo {
+    text-align: center;
+  }
+  .NectarDashBoard h3 {
+    font-size: 13px;
+  }
+  .No-TopReviews {
+    text-align: center;
+    font-size: 12px;
+  }
+}

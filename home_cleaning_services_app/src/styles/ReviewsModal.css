@@ -1,0 +1,97 @@
+/* reviews modal for adding a review styling */
+.ReviewsModal {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  box-shadow: 1px 1px 10px 2px black;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: rgba(131, 135, 236, 0.949);
+}
+.ReviewsModal-Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 20px;
+}
+.Display-Review {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.ReviewsModal input {
+  border-radius: 20px;
+  width: 5vw;
+  text-align: center;
+}
+.ReviewsModal > button {
+  border: none;
+  width: fit-content;
+  background-color: rgb(192, 192, 204);
+  color: black;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.ReviewsModal > button:hover {
+  box-shadow: 1px 1px 5px 1px black;
+}
+.ReviewsModal textarea {
+  height: 20vh;
+  width: 20vw;
+  border-radius: 20px;
+  text-align: center;
+}
+.Submit {
+  border: none;
+  background-color: rgb(91, 91, 202);
+  border-radius: 20px;
+  padding: 10px;
+  width: fit-content;
+  color: white;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px 1px black;
+  cursor: pointer;
+}
+.Submit:hover {
+  box-shadow: 1px 1px 5px 1px gray;
+}
+.ReviewsModal-Form b {
+  color: white;
+  font-weight: bold;
+}
+.ReviewModalSelect {
+  border-radius: 10px;
+}
+.Review-Errors {
+  color: red;
+  font-size: 14px;
+}
+/* medium screen sizes, tablet size */
+@media (max-width: 1024px) {
+  .ReviewsModal {
+    width: 40vw;
+  }
+  .ReviewsModal input {
+    width: 15vw;
+  }
+  .ReviewsModal textarea {
+    width: 40vw;
+  }
+}
+/* small screen sizes, phone size */
+@media (max-width: 600px) {
+  .ReviewsModal {
+    width: 70vw;
+  }
+  .ReviewsModal input {
+    width: 20vw;
+  }
+  .ReviewsModal textarea {
+    width: 40vw;
+  }
+}

@@ -1,0 +1,123 @@
+/* all nectars modal styling */
+.AllNectarsModal {
+  position: absolute;
+  top: 10px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px 0px black;
+  width: 25vw;
+  z-index: 3;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+}
+.Nectar-Avatar {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 0px 20px 0px black;
+  border-radius: 50%;
+  filter: blur(10px);
+  opacity: 0;
+  transition: filter 0.5s ease-in, opacity 0.5s ease-in;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.Nectar-Avatar.loaded {
+  filter: blur(0px);
+  opacity: 1;
+}
+.NectarModalBook-Button {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(51, 208, 156);
+  padding: 10px;
+  border-radius: 30px;
+  width: 10vw;
+  font-weight: bold;
+}
+.NectarModalClose-Button {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(221, 76, 76);
+  padding: 10px;
+  border-radius: 50px;
+  width: 5vw;
+  font-weight: bold;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+.Modal-Controls {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.NectarModalBook-Button:hover,
+.NectarModalReviews-Button:hover {
+  color: white;
+  background-color: black;
+}
+.NectarModalClose-Button:hover {
+  color: rgb(221, 76, 76);
+  background-color: black;
+}
+.NectarModalReviews-Button {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(102, 188, 217);
+  padding: 10px;
+  border-radius: 30px;
+  width: 10vw;
+  font-weight: bold;
+}
+.Time-Not-Available {
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+}
+.Disabled-Button {
+  padding: 10px;
+  border-radius: 30px;
+  width: 10vw;
+}
+/* medium screen sizes, tablet size */
+@media (max-width: 1024px) {
+  .AllNectarsModal {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 40vw;
+    height: fit-content;
+    font-size: 15px;
+  }
+  .Nectar-Avatar {
+    width: 100px;
+    height: 100px;
+  }
+  .NectarModalClose-Button,
+  .NectarModalReviews-Button,
+  .NectarModalBook-Button {
+    width: fit-content;
+  }
+}
+/* small screen sizes, phone size */
+@media (max-width: 600px) {
+  .AllNectarsModal {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 65vw;
+    height: fit-content;
+    font-size: 13px;
+  }
+  .Nectar-Avatar {
+    width: 100px;
+    height: 100px;
+  }
+  .NectarModalClose-Button,
+  .NectarModalReviews-Button,
+  .NectarModalBook-Button {
+    width: fit-content;
+  }
+}

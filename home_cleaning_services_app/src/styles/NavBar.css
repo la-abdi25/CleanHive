@@ -1,0 +1,157 @@
+/* home navbar styling */
+.Nav-Header {
+  display: flex;
+  align-items: center;
+}
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding-right: 2%;
+}
+.NavBar-Links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.NavBar-Register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.NavBar-Logo {
+  width: 100px;
+}
+.NavBar-MainLinks-Register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+.NavBar-MainLinks-Register a {
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #ffc20a;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  padding: 5px;
+  color: black;
+}
+.NavBar-MainLinks-Register a:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid #ffc20a;
+}
+.NavBar-Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.NavBar-MainLinks-Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+.NavBar-MainLinks-Login a {
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #ffc20a;
+  background-color: black;
+  border-radius: 20px;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+}
+.NavBar-MainLinks-Login a:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #ffc20a;
+}
+.NavBar-Register2 {
+  display: flex;
+  gap: 0.5rem;
+}
+.NavBar-Register2 a {
+  display: flex;
+  gap: 0.5rem;
+  width: 10vw;
+  align-items: center;
+  justify-content: center;
+}
+.NavBar-MainLinks-Register p,
+.NavBar-MainLinks-Login p {
+  letter-spacing: 2px;
+}
+.SmallSize-MenuBar {
+  display: none;
+}
+.Menu-Bar {
+  width: 70px;
+  height: 70px;
+}
+.Close-NavBarMenu {
+  width: 25px;
+  height: 25px;
+}
+.SmallLinks {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  right: 0%;
+  top: 0%;
+  padding: 20px;
+  height: fit-content;
+  gap: 2rem;
+  z-index: 3;
+  background-color: #ffc20a;
+  border-radius: 0px 0px 0px 5px;
+}
+.SmallLinks a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.SmallLinks a:hover {
+  text-decoration-color: white;
+  text-decoration-line: underline;
+  text-underline-offset: 3px;
+}
+/* large screen sizes, desktop/laptop size */
+@media (max-width: 1440px) {
+  .NavBar-Links {
+    display: flex;
+  }
+  .SmallSize-MenuBar {
+    display: none;
+  }
+}
+/* medium screen sizes, tablet size */
+@media (max-width: 1024px) {
+  .NavBar-Links {
+    display: none;
+  }
+  .SmallSize-MenuBar {
+    display: flex;
+  }
+}
+/* small screen sizes, phone size */
+@media (max-width: 600px) {
+  .NavBar-Links {
+    display: none;
+  }
+  .SmallSize-MenuBar {
+    display: flex;
+  }
+}

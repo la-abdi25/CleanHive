@@ -1,0 +1,22 @@
+/* pricing plans button styling home page*/
+.Button-Pricing {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.Button-Pricing:hover {
+  background-color: white;
+  color: black;
+  transition: background-color ease-in 1ms;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}

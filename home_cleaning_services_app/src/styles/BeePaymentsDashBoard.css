@@ -1,0 +1,81 @@
+/* bee payments dashboard styling */
+.BeePaymentsDashBoard {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.BeePayments-Container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 15px;
+}
+.BeePayment-Details {
+  display: flex;
+  padding: 10px;
+  width: 93vw;
+}
+.BeePayment-Buttons {
+  display: flex;
+  gap: 1rem;
+  border: none;
+}
+.BeePayment-Buttons button {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.BeePayment-Buttons button:focus {
+  color: goldenrod;
+  border-bottom: 3px solid black;
+}
+.BeePaymentsDashBoard h2 {
+  color: goldenrod;
+  padding: 20px;
+  text-align: left;
+}
+.BeePayments-Button-Text {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* medium screen sizes, tablet size */
+@media (max-width: 1024px) {
+  .BeePayment-Buttons {
+    flex-direction: column;
+  }
+  .BeePaymentsDashBoard {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .BeePayment-Buttons button:focus {
+    border: none;
+  }
+  .BeePayment-Details {
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* small screen sizes, phone size */
+@media (max-width: 600px) {
+  .BeePayment-Buttons {
+    flex-direction: column;
+  }
+  .BeePaymentsDashBoard {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .BeePayment-Buttons button:focus {
+    border: none;
+  }
+  .BeePayment-Details {
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,251 @@
+/* bee checkout form styling */
+.BeeCheckOut {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.BeeCheckoutForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 50vw;
+  border-radius: 20px;
+  background: linear-gradient(90deg, goldenrod, beige);
+  box-shadow: 1px 1px 20px 1px black;
+}
+.Checkout-Times h4 {
+  text-align: center;
+  color: rgb(82, 82, 167);
+}
+.Checkout-Info {
+  display: flex;
+  justify-content: center;
+}
+.Checkout-Details {
+  background-color: rgb(82, 82, 167);
+  box-shadow: 1px 1px 30px 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 20px;
+  color: white;
+}
+.Checkout-Details img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  filter: blur(10px);
+  opacity: 0;
+  transition: filter 0.5s ease-in, opacity 0.5s ease-in;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.Checkout-Details img.loaded {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  filter: blur(0px);
+  opacity: 1;
+}
+.Checkout-Total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px 1px black;
+  font-weight: bold;
+  width: 15vw;
+}
+.Checkout-Total p:hover {
+  font-size: 20px;
+  color: green;
+}
+.Checkout-Controls {
+  display: flex;
+  gap: 2rem;
+}
+.Checkout-Controls button {
+  border: none;
+  width: 10vw;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: rgb(84, 84, 222);
+  color: white;
+  font-size: 15px;
+  box-shadow: 1px 1px 20px 1px black;
+  cursor: pointer;
+}
+.Checkout-Controls a {
+  text-decoration: none;
+  width: 10vw;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: rgb(151, 151, 213);
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Josefin Sans", sans-serif;
+  box-shadow: 1px 1px 20px 1px black;
+}
+.Checkout-Controls button:hover,
+.Checkout-Controls a:hover {
+  background-color: white;
+  color: rgb(151, 151, 213);
+}
+.BeeCheckoutForm b {
+  color: goldenrod;
+}
+.Checkout-Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  flex-direction: column;
+  gap: 2rem;
+}
+.Checkout-BeeNotes {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 20px;
+  padding: 50px;
+  width: fit-content;
+}
+.Checkout-BeeNotes label {
+  font-weight: bold;
+  color: goldenrod;
+  padding-bottom: 5px;
+}
+.Checkout-BeeNotes textarea {
+  width: 20vw;
+  text-align: center;
+  height: 10vh;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px 1px black;
+}
+.BeeCheckout-Card {
+  padding: 30px;
+  width: 25vw;
+  color: black;
+  height: 20vh;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px 1px black;
+  background-color: rgba(204, 204, 215, 0.2);
+}
+.BeeCheckout-Card h4 {
+  color: rgb(95, 95, 206);
+  text-align: center;
+}
+.Checkout-Errors,
+.Not-Available {
+  font-size: 14px;
+  color: red;
+  padding: 5px;
+}
+/* medium screen sizes, tablet size */
+@media (max-width: 1024px) {
+  .Checkout-Info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Checkout-Total {
+    box-shadow: none;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px 0px 20px 20px;
+    width: 80%;
+    color: white;
+  }
+  .Checkout-Details {
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .Checkout-BeeNotes {
+    background: none;
+  }
+  .Checkout-BeeNotes textarea {
+    width: 40vw;
+    height: 20vh;
+  }
+  .Checkout-BeeNotes label {
+    color: rgb(82, 82, 167);
+    text-align: center;
+  }
+  .Checkout-Times {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .BeeCheckout-Card {
+    width: 35vw;
+  }
+  .BeeCheckoutForm {
+    width: 60vw;
+    height: fit-content;
+  }
+  .Checkout-Controls button {
+    width: fit-content;
+  }
+  .Checkout-Controls a {
+    width: fit-content;
+  }
+}
+/* small screen sizes, phone size */
+@media (max-width: 600px) {
+  .Checkout-Info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Checkout-Total {
+    box-shadow: none;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px 0px 20px 20px;
+    width: 80%;
+    color: white;
+  }
+  .Checkout-Details {
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .Checkout-BeeNotes {
+    background: none;
+  }
+  .Checkout-BeeNotes textarea {
+    width: 50vw;
+    height: 20vh;
+  }
+  .Checkout-BeeNotes label {
+    color: rgb(82, 82, 167);
+    text-align: center;
+  }
+  .Checkout-Times {
+    width: 50vw;
+  }
+  .BeeCheckout-Card {
+    width: 50vw;
+  }
+  .BeeCheckoutForm {
+    width: 70vw;
+    height: fit-content;
+  }
+  .Checkout-Controls button {
+    width: fit-content;
+  }
+  .Checkout-Controls a {
+    width: fit-content;
+  }
+}

@@ -1,0 +1,20 @@
+/* footer styling */
+.Footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  margin-left: 10px;
+}
+/* medium screen sizes, tablet size */
+@media (max-width: 1024px) {
+  .Footer {
+    font-size: 13px;
+  }
+}
+/* small screen sizes, phone size */
+@media (max-width: 600px) {
+  .Footer {
+    font-size: 10px;
+  }
+}

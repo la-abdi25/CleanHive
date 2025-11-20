@@ -1,0 +1,105 @@
+/* nectar cancelled payments styling */
+.NectarCancelledPayments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 2rem;
+}
+.NectarCancelledPayments-Info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.NectarCancelledPayments-Customer-Info {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 50px;
+  text-align: center;
+  align-items: center;
+  width: 20vw;
+  height: 20vh;
+  background-image: linear-gradient(#aab9cf, #24d7e7);
+  color: black;
+  font-weight: bold;
+  box-shadow: 0px 0px 20px 0px gray;
+}
+.NectarCancelledPayments-Customer-Info b {
+  color: white;
+}
+.No-CancelledPayments {
+  font-weight: bold;
+  color: brown;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+.NecCancelledBookingRef {
+  background-color: rgb(196, 211, 135);
+  color: white;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.NecCancelledBookingRef b {
+  color: navy;
+}
+.NectarCancelledPay-More {
+  border: none;
+  position: absolute;
+  bottom: 0;
+  padding: 13px;
+  border-radius: 40px;
+  width: 10vw;
+  background-color: aquamarine;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px 0px gray;
+  margin: -12%;
+}
+.NectarCancelledPay-More:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.NectarCancelledPay-More:disabled {
+  background-color: rgb(203, 201, 201);
+  color: white;
+}
+/* large screen sizes, desktop/laptop size */
+@media (max-width: 1440px) {
+  .NectarCancelledPayments-Customer-Info {
+    height: fit-content;
+    font-size: 16px;
+    width: 250px;
+  }
+  .NectarCancelledPay-More {
+    width: fit-content;
+    margin: -20%;
+  }
+}
+/* medium screen sizes, tablet size */
+@media (max-width: 1024px) {
+  .NectarCancelledPayments-Customer-Info {
+    height: fit-content;
+    font-size: 15px;
+    width: 250px;
+  }
+  .NectarCancelledPay-More {
+    width: fit-content;
+    margin: -15%;
+  }
+}
+/* small screen sizes, phone size */
+@media (max-width: 600px) {
+  .NectarCancelledPayments-Customer-Info {
+    height: fit-content;
+    font-size: 13px;
+    width: 50%;
+  }
+  .NectarCancelledPay-More {
+    width: fit-content;
+    margin: -15%;
+  }
+}

@@ -1,0 +1,169 @@
+/* bee dashboard styling */
+.BeeDashBoard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.BeeDashBoard-Nectars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  width: 90vw;
+  height: fit-content;
+  padding: 20px;
+}
+.BeeDashBoard-Search {
+  border: none;
+  border: 2px solid goldenrod;
+  width: 50vw;
+  height: 3vh;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+}
+.BeeDashBoard-Search:focus {
+  outline: none;
+  border: 1px solid goldenrod;
+}
+.BeeDashBoard-LookUp {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  gap: 1rem;
+}
+.Filter {
+  width: 30px;
+  height: 30px;
+  padding: 1px;
+  cursor: pointer;
+}
+.Filter-Dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 2px;
+  gap: 0.5rem;
+  width: 7vw;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.Filter-Data {
+  display: flex;
+  position: absolute;
+  left: 10px;
+  border: 1px solid goldenrod;
+  border-radius: 30px;
+  z-index: 1;
+  background-color: goldenrod;
+}
+.FilterSearch {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 2rem;
+  color: white;
+  text-align: center;
+}
+.SearchPlan {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.Apply-Button {
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 5vw;
+  background-color: navy;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px 0px gray;
+}
+.Apply-Button:hover {
+  background-color: black;
+  color: white;
+}
+.Headers-Search {
+  font-weight: bold;
+  color: navy;
+}
+.FilterBack {
+  padding: 10px;
+}
+.FilSearch {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid goldenrod;
+  border-radius: 50%;
+  background-color: white;
+  padding: 7px;
+}
+.FilSearch:hover {
+  background-color: goldenrod;
+  box-shadow: 2px 2px 30px 2px gray;
+}
+.Bee-Intro {
+  color: goldenrod;
+  letter-spacing: 2px;
+}
+.Bee-Intro i {
+  color: black;
+}
+/* medium screen sizes, tablet size */
+@media (max-width: 1024px) {
+  .Filter-Dropdown {
+    width: 15vw;
+  }
+  .FilterSearch {
+    flex-wrap: wrap;
+    justify-content: start;
+    height: fit-content;
+    width: 30vw;
+    text-align: start;
+    gap: 0.5rem;
+    padding: 10px;
+  }
+  .Apply-Button {
+    width: 10vw;
+    text-align: center;
+    font-size: 13px;
+  }
+}
+/* small screen sizes, phone size */
+@media (max-width: 600px) {
+  .Bee-Intro {
+    font-size: 14px;
+  }
+  .BeeDashBoard-Search {
+    width: 70vw;
+  }
+  .Filter-Dropdown {
+    width: 20vw;
+  }
+  .Apply-Button {
+    width: 15vw;
+    text-align: center;
+    font-size: 10px;
+  }
+  .FilterSearch {
+    flex-wrap: wrap;
+    justify-content: start;
+    height: fit-content;
+    width: 40vw;
+    text-align: start;
+    gap: 0.2rem;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .BeeDashBoard-Search::placeholder {
+    font-size: 10px;
+  }
+}

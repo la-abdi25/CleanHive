@@ -1,0 +1,126 @@
+/* bee dashboard nectars styling */
+.NectarsContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  gap: 1rem;
+}
+.Nectars-Profile-Image {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 0px black;
+  filter: blur(10px);
+  opacity: 0;
+  transition: filter 0.5s ease-in, opacity 0.5s ease-in;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.Nectars-Profile-Image.loaded {
+  filter: blur(0px);
+  opacity: 1;
+}
+.NectarsBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: fit-content;
+  padding: 20px;
+  height: fit-content;
+  border-radius: 20px;
+  gap: 1rem;
+  box-shadow: 2px 2px 12px 4px gray;
+  background-color: black;
+}
+.Nectars-Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  background-color: rgb(91, 91, 202);
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.Nectars-View-Button {
+  text-decoration: none;
+  text-align: center;
+  color: goldenrod;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 0px black;
+}
+.Nectars-View-Button:hover {
+  color: white;
+  background-color: goldenrod;
+}
+.Nectars-Verified {
+  width: 30px;
+  height: 30px;
+}
+.LoadMore {
+  border: none;
+  position: absolute;
+  bottom: 0;
+  padding: 13px;
+  border-radius: 40px;
+  background-color: aquamarine;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px 0px gray;
+  width: fit-content;
+  margin-top: -10%;
+}
+.LoadMore:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.LoadMore:disabled {
+  background-color: rgb(203, 201, 201);
+  color: white;
+}
+.NoData {
+  padding: 100px;
+  font-weight: bold;
+  color: rgb(96, 18, 18);
+  text-transform: uppercase;
+}
+/* medium screen sizes, tablet size */
+@media (max-width: 1024px) {
+  .LoadMore {
+    margin-top: -10%;
+  }
+  .NoData {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+/* small screen sizes, phone size */
+@media (max-width: 600px) {
+  .NectarsBox {
+    width: 65vw;
+  }
+  .Nectars-Profile-Image {
+    width: 60vw;
+  }
+  .Nectars-Info {
+    height: fit-content;
+    width: 40vw;
+    font-size: 14px;
+  }
+  .LoadMore {
+    margin-top: -10%;
+  }
+  .NoData {
+    font-size: 12px;
+    text-align: center;
+  }
+}

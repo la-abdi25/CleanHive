@@ -1,0 +1,149 @@
+/* bee reviews styling */
+.Reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+}
+.Reviews-Here {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Reviews-Box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.Review-Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Customer-Review {
+  width: 50%;
+}
+.Bee-Review {
+  display: flex;
+  flex-direction: column;
+  width: 23vw;
+  height: fit-content;
+  padding: 15px;
+  box-shadow: 1px 1px 10px 1px black;
+  border-radius: 20px;
+  background-color: rgb(91, 91, 202);
+  color: white;
+}
+.Bee-Review b {
+  color: goldenrod;
+}
+.NectarImg-Review {
+  width: 70px;
+  height: 70px;
+}
+.Add-Review {
+  border: none;
+  background-color: rgb(116, 202, 116);
+  padding: 10px;
+  width: fit-content;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 1px 1px 20px 1px black;
+  cursor: pointer;
+}
+.Add-Review:hover {
+  color: rgb(116, 202, 116);
+  background-color: black;
+  box-shadow: 2px 2px 20px 2px rgb(116, 202, 116);
+}
+.Reviews-Toggle {
+  display: flex;
+  justify-content: center;
+}
+.Review-Data {
+  background-color: black;
+  position: relative;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  box-shadow: 2px 2px 10px 2px white;
+}
+.Delete-Review {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.Delete-Review:hover {
+  box-shadow: 0px 0px 10px 0px white;
+}
+.No-Reviews {
+  font-weight: bold;
+  color: brown;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+.ReviewsLoadMore {
+  border: none;
+  position: absolute;
+  bottom: 0;
+  padding: 13px;
+  border-radius: 40px;
+  width: 10vw;
+  background-color: aquamarine;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px 0px gray;
+  margin: -10%;
+}
+.ReviewsLoadMore:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.ReviewsLoadMore:disabled {
+  background-color: rgb(203, 201, 201);
+  color: white;
+}
+.Reviews-Box1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+/* medium screen sizes, tablet size */
+@media (max-width: 1024px) {
+  .Add-Review {
+    width: fit-content;
+  }
+  .Bee-Review {
+    width: 50vw;
+  }
+  .ReviewsLoadMore {
+    width: fit-content;
+  }
+}
+/* small screen sizes, phone size */
+@media (max-width: 600px) {
+  .Add-Review {
+    width: fit-content;
+  }
+  .ReviewsLoadMore {
+    width: fit-content;
+  }
+  .Bee-Review {
+    width: 90vw;
+  }
+}

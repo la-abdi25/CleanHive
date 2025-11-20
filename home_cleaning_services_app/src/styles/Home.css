@@ -1,0 +1,160 @@
+/* home page styling */
+.Home {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
+  gap: 1rem;
+}
+.Home-Description {
+  display: flex;
+  justify-content: space-between;
+}
+#Home-Section-1 {
+  background-image: url("/background.png");
+  background-size: cover;
+  padding-bottom: 10%;
+  height: 70vh;
+}
+.Button-Pricing {
+  border: none;
+}
+#Home-Section-2 {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5%;
+  width: 100vw;
+  box-shadow: 0px 0px 30px 0px gray;
+}
+.Home-Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  width: fit-content;
+  padding: 10px;
+}
+.Home-Images {
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.Home-Info img {
+  width: 40vw;
+  height: auto;
+  background-size: cover;
+  border-radius: 20px;
+}
+.Home-p3 {
+  padding-top: 50%;
+  margin-left: 100px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  color: #432405;
+  width: 250px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.Home-p3::first-letter {
+  color: white;
+  font-size: 30px;
+}
+.Home-Focus {
+  display: flex;
+}
+.Home-Button {
+  display: flex;
+  padding-top: 20%;
+  padding-right: 7.5%;
+}
+.Home-Info-H1::first-letter {
+  font-size: 40px;
+  color: goldenrod;
+}
+.Home-Testimonials-H1 {
+  text-align: center;
+  color: goldenrod;
+}
+#Home-Section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  background-color: black;
+}
+.Home-Info-H1 {
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+/* animation */
+.Home-Info img {
+  animation-duration: 3s;
+  animation-name: slide-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes slide-in {
+  from {
+    transform: rotate(180deg);
+    scale: 100% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+
+/* medium screen sizes, tablet size */
+@media (max-width: 1024px) {
+  .Home-p3 {
+    font-size: 15px;
+    width: 150px;
+  }
+  #Home-Section-1 {
+    position: relative;
+    height: 60vh;
+  }
+  .Home-Button {
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    font-size: 15px;
+  }
+}
+/* small screen sizes, phone size */
+@media (max-width: 600px) {
+  .Home-p3 {
+    display: none;
+  }
+  #Home-Section-1 {
+    position: relative;
+    height: 50vh;
+  }
+  .Home-Button {
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    font-size: 12px;
+  }
+  .Home-Info img {
+    width: 100%;
+    height: 100%;
+  }
+  .Home-Testimonials-H1 {
+    font-size: 18px;
+  }
+  .Home-Info-H1 {
+    font-size: 18px;
+  }
+  .Home-Testimonials-H1 {
+    font-size: 18px;
+  }
+}

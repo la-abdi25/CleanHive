@@ -1,0 +1,39 @@
+/* not found page styling*/
+.Not-Found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.Not-Found h2 {
+  color: goldenrod;
+}
+.Not-Found img {
+  width: 200px;
+  height: 200px;
+}
+.Not-Found p {
+  color: navy;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.Return-404 {
+  text-decoration: none;
+  padding: 10px;
+  background-color: goldenrod;
+  color: black;
+  font-weight: bold;
+  border-radius: 2px;
+}
+.Return-404:hover {
+  background-color: black;
+  color: white;
+}
+/* small screen sizes, phone size */
+@media (max-width: 600px) {
+  .Not-Found p {
+    font-size: 13px;
+    text-align: center;
+  }
+}

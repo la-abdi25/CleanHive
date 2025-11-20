@@ -1,0 +1,161 @@
+/* reviews page styling */
+.ReviewsDashBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Reviews-ProfileImage {
+  padding: 50px;
+}
+.Reviews-Board {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.NectarReviewImage {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  filter: blur(10px);
+  opacity: 0;
+  transition: filter 0.5s ease-in, opacity 0.5s ease-in;
+}
+.NectarReviewImage.loaded {
+  filter: blur(0px);
+  opacity: 1;
+  height: 300px;
+}
+.Nectar-Review-Box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.Nectar-Review-Profile {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 1px 1px 20px 1px gray;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.Reviews-Check img {
+  width: 50px;
+  height: 50px;
+}
+.Reviews-Check {
+  position: absolute;
+  right: 0;
+}
+.Nectar-Review-Bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 290px;
+  height: 40vh;
+  border-radius: 0px 10px 10px 0px;
+  background-color: rgb(91, 91, 202);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.LearnButton {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 40vh;
+  background-color: rgb(91, 91, 202);
+  box-shadow: 10px 1px 10px 1px lightgray;
+  cursor: pointer;
+}
+.Controls,
+.Next-Learn {
+  width: 50px;
+  height: 50px;
+}
+.ReviewsDashBoard h3 {
+  color: white;
+}
+.Nectar-Find-Data {
+  display: flex;
+}
+.ReviewsDashBoard b,
+h1,
+h4,
+h2 {
+  color: goldenrod;
+}
+.Review {
+  display: flex;
+  margin-top: 5%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+/* medium screen sizes, tablet size */
+@media (max-width: 1024px) {
+  .ReviewsDashBoard h2 {
+    font-size: 17px;
+  }
+  .ReviewsDashBoard h1 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .Nectar-Find-Data {
+    display: none;
+  }
+  .Nectar-Review-Profile {
+    display: flex;
+    width: 50vw;
+    align-items: center;
+  }
+  .Nectar-Review-Box {
+    justify-content: center;
+    width: 100%;
+  }
+  .Review-Nec-Data {
+    font-size: 15px;
+  }
+}
+/* small screen sizes, phone size */
+@media (max-width: 600px) {
+  .ReviewsDashBoard h2 {
+    font-size: 17px;
+  }
+  .ReviewsDashBoard h1 {
+    text-align: center;
+    font-size: 17px;
+  }
+  .Nectar-Find-Data {
+    display: none;
+  }
+  .Nectar-Review-Profile {
+    display: flex;
+    width: 90vw;
+    align-items: center;
+  }
+  .Nectar-Review-Box {
+    justify-content: center;
+    width: 100%;
+  }
+  .NectarReviewImage {
+    width: 50vw;
+    border-radius: 10px;
+  }
+  .Review-Nec-Data {
+    font-size: 13px;
+  }
+}
