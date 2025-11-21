@@ -46,9 +46,7 @@ const NavBarNectarProfile = () => {
     <header className="Bee-Nav-Header">
       <nav className="Bee-NavBar">
         <Toaster />
-        <Link href="/">
-          <img className="NavBarBeeProfile-Logo" src="/profile-logo.png" />
-        </Link>
+        <img className="NavBarBeeProfile-Logo" src="/profile-logo.png" />
         <div className="NavBarBeeProfile-Nav">
           <div className="NavBarBeeProfile-MainLinks">
             <div className="NavBarBeeProfile-Link">
