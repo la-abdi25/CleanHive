@@ -19,7 +19,7 @@ export const GET = async (request, { params }) => {
         nectarData.availability = nectar.availability;
         //locate nectar profile image from S3 Bucket/CloudFront
         const res = await axios.get(
-          `${request.nextUrl.origin}/api/users/nectar-profile/${id}`
+          `${process.env.BACKEND_URL}/api/users/nectar-profile/${id}`
         );
         nectarData.profileImage = res.data.url;
         if (nectar.plan === "standard clean") {
