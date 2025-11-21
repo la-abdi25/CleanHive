@@ -27,9 +27,9 @@ const NectarDashBoard = () => {
   //fetches top reviews and nectar data from backend api call
   useEffect(() => {
     const handleNectarData = async () => {
-      const res = await axios.get("/api/users/login");
+      const res = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/users/login`);
       const res2 = await axios.get(
-        `/api/users/nectar-profile/nectar-data/${res.data.userId}`
+        `${process.env.NEXT_PUBLIC_API_URL}/api/users/nectar-profile/nectar-data/${res.data.userId}`
       );
       setNectarData(res2.data.nectarData);
       setTopReviews(res2.data.myReviews);
