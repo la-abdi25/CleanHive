@@ -90,7 +90,7 @@ export const GET = async (request) => {
         }
         let id = nectars[nectar]._id;
         const res = await axios.get(
-          `${request.nextUrl.origin}/api/users/nectar-profile/${id}`
+          `${process.env.BACKEND_URL}/api/users/nectar-profile/${id}`
         );
         data.availability = nectars[nectar].availability;
         data.profileImage = res.data.url;
