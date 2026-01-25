@@ -10,7 +10,7 @@
 </ul>
 
 <h2>Features</h2>
-<h3>Bee & Nectar Accounts via Registration</h3>
+<h3>Bee & Nectar Accounts</h3>
 <ul>
   <li>Register as a Bee or Nectar</li>
   <li>Secure login and authentication using JWT and bcrypt</li>
