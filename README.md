@@ -97,7 +97,7 @@
 <ul>
   <li>Bees can leave reviews and delete reviews after completed services</li>
   <li>Top 4 reviews are displayed on Nectar profiles</li>
-  <li>Helps Bees make informed booking decisions</li>
+  <li>Full reviews visible to Bees: All Bees reviews are fully visible to other Bees to enhance authenticity and trust. </li>
 </ul>
 
 
