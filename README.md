@@ -22,8 +22,8 @@
 <h3>Browse Cleaning Agents</h3>
 <ul>
   <li>View a list of available cleaning agents</li>
-  <li>Select a cleaner directly from their profile</li>
-  <li>Search for a cleaning agent by name</li>
+  <li>Select a Nectar directly from their profile</li>
+  <li>Search for a Nectar by name</li>
 </ul>
 
 <h3>Book a Cleaning Service</h3>
@@ -78,7 +78,7 @@
 <h3>Nectar Payment View</h3>
 <ul>
   <li>Booking reference number</li>
-  <li>Customer name</li>
+  <li>Bee name</li>
   <li>Payout status (in route, or cancelled)</li>
   <li>Funds availability date (when payout becomes available)</li>
   <li>Transfer or reversal status (if applicable)</li>
@@ -95,9 +95,9 @@
 
 <h3>Reviews & Ratings</h3>
 <ul>
-  <li>Customers can leave reviews after completed services</li>
-  <li>Top 4 Reviews are displayed on Nectar profiles</li>
-  <li>Helps users make informed booking decisions</li>
+  <li>Bees can leave reviews and delete reviews after completed services</li>
+  <li>Top 4 reviews are displayed on Nectar profiles</li>
+  <li>Helps Bees make informed booking decisions</li>
 </ul>
 
 
@@ -113,7 +113,7 @@
 
 <h3>File Storage (AWS)</h3>
 <ul>
-  <li>User-uploaded images (profile photos, service images) are stored in AWS S3 </li>
+  <li>Nectar uploaded images such as profile photos are stored in AWS S3 </li>
   <li>CloudFront CDN serves assets with low latency and caching</li>
   <li>Improves load times and scalability</li>
 </ul>
