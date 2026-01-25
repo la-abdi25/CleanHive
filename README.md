@@ -159,4 +159,13 @@
     <li>AWS CloudFront: CDN for fast global asset delivery</li>
   </ul>
 </ul>
+
+<h2>How To Get Started</h2>
+<ol>
+  <li>git clone https://github.com/la-abdi25/Clean-Hive.git</li>
+  <li>cd home_cleaning_services_app</li>
+  <li>npm install</li>
+  <li>npm run dev</li>
+  <li>Visit http://localhost:3000</li>
+</ol>
   
