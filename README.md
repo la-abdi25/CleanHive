@@ -1,7 +1,7 @@
 # Clean-Hive
 
 <h2>Description</h2>
-<p> A full-stack home cleaning services application that allows users to book professional cleaning services, communicate with cleaners in real time, and securely pay online. Built with a modern web stack focused on scalability, security, and performance using Next.js/React, MongoDB, Stripe API, Firebase API, AWS S3(Object Storage), and AWS CloudFront(CDN) </p>
+<p> A full-stack home cleaning services application that allows users to book professional cleaning services, communicate with cleaners in real time, and securely pay online. Built with a modern web stack focused on scalability, security, and performance using Next.js/React, MongoDB, Stripe API, Firebase API, AWS S3(Object Storage), and AWS CloudFront(CDN).</p>
 
 <h2> App Terminology </h2>
 <ul>
