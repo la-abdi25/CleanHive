@@ -7,7 +7,7 @@ Designed for scalability, accessibility, and performance, the application suppor
 individuals with limited mobility, busy professionals, and businesses by making
 on-demand cleaning reliable and easy to manage. </p>
 
-<h2>Why This Project Matters</h2>
+<h2>Product Overview</h2>
 <p>
 Many individuals and businesses struggle to find reliable cleaning services due to
 time constraints, physical limitations, or lack of transparent booking systems.
