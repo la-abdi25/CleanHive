@@ -1,7 +1,7 @@
 # Clean-Hive
 
 <h2>Description</h2>
-<p> A full-stack home cleaning services application that allows users to book professional cleaning services, communicate with cleaners in real time, and securely pay online. Built with scalability, security, and performance in mind using Figma, Next.js/React, CSS, MongoDB, Stripe API, Firebase API, AWS S3(Object Storage), AWS CloudFront(CDN), React Testing Library, and Jest.</p>
+<p> A full-stack home cleaning services application that allows users to book professional cleaning services, communicate with cleaning agents in real time, and securely pay online. Built with scalability, security, and performance in mind using Figma, Next.js/React, CSS, MongoDB, Stripe API, Firebase API, AWS S3(Object Storage), AWS CloudFront(CDN), React Testing Library, and Jest.</p>
 
 <h2> App Terminology </h2>
 <ul>
