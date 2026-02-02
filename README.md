@@ -22,7 +22,9 @@ and scalable platform that connects customers with trusted cleaning professional
 </ul>
 
 <h2> App Preview </h2>
-![Login Page](assets/Login.png)
+
+<h1>Login Page</h1>
+<img src="assets/login.png" alt="Login Page" width="400">
 
 <h2>Features</h2>
 <h3>Bee & Nectar Accounts</h3>
