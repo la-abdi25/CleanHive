@@ -48,8 +48,11 @@ and scalable platform that connects customers with trusted cleaning professional
 <h3>Bee Checkout Page</h3>
 <img src="assets/beecheckoutpage.png" alt="Bee Checkout Page" width="400">
 
-<h3>Nectar Paymments Page</h3>
-<img src="assets/nectarpaymentspage.png" alt="Bee Checkout Page" width="400">
+<h3>Nectar Payments Page</h3>
+<img src="assets/nectarpaymentspage.png" alt="Nectar Payments Page" width="400">
+
+<h3>Nectar Bookings Page</h3>
+<img src="assets/nectarbookingspage.png" alt="Nectar Bookings Page" width="400">
 
 <h3>Messaging Page for Bees and Nectars</h3>
 
