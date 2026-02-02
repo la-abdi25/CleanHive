@@ -22,7 +22,7 @@ and scalable platform that connects customers with trusted cleaning professional
 </ul>
 
 <h2> App Preview </h2>
-![Login Page](assets/login.png)
+![Login Page](assets/Login.png)
 
 <h2>Features</h2>
 <h3>Bee & Nectar Accounts</h3>
