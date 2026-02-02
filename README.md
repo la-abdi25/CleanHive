@@ -42,7 +42,7 @@ and scalable platform that connects customers with trusted cleaning professional
 <img src="assets/nectarprofileresponsive.png" alt="Nectar Profile Page Repsonsive" width="400">
 
 <h3>Bees' Review Page</h3>
-<img src="assets/beereviewspage.png" alt="Bee Reviews Page" width="400">
+<img src="assets/beereviewspage1.png" alt="Bee Reviews Page" width="400">
 <img src="assets/beereviewspage2.png" alt="Bee Reviews Page2" width="400">
 
 <h3>Bookings Page</h3>
