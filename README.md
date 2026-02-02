@@ -29,6 +29,11 @@ and scalable platform that connects customers with trusted cleaning professional
 <h3>Bee Registration Page</h3>
 <img src="assets/registerbee.png" alt="Bee Registration Page" width="400">
 
+<h3>Nectar Registration Page</h3>
+<img src="assets/registernectar1.png" alt="Nectar Registration Page Part1" width="400">
+<img src="assets/registernectar2.png" alt="Nectar Registration Page Part2" width="400">
+<img src="assets/registernectar3.png" alt="Nectar Registration Page Part3" width="400">
+
 <h2>Features</h2>
 <h3>Bee & Nectar Accounts</h3>
 <ul>
