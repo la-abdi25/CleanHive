@@ -160,7 +160,7 @@ and scalable platform that connects customers with trusted cleaning professional
 <ul>
   <li>Bees can leave reviews and delete reviews after completed services</li>
   <li>Top 4 reviews are displayed on Nectar profiles</li>
-  <li>Full reviews visible to Bees: All Bees reviews are fully visible to other Bees to enhance authenticity and trust </li>
+  <li>Full reviews visible to Bees: All Bee reviews are fully visible to other Bees to enhance authenticity and trust </li>
 </ul>
 
 
